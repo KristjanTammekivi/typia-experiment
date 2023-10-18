@@ -1,0 +1,10 @@
+{
+  "name": "typetesttest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kristjan Tammekivi <kristjantammekivi@gmail.com>",
+  "scripts": {
+    "setup": "yarn --cwd transform && yarn --cwd transform build && rm -rf example-usage/node_modules && yarn --cwd example-usage && yarn --cwd example-usage build"
+  },
+  "license": "MIT"
+}

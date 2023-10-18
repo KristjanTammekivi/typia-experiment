@@ -1,0 +1,18 @@
+{
+  "name": "typia-typetest",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "./dist/typetest.js",
+  "exports": {
+    ".": "./dist/typetest.js",
+    "./transform": "./dist/transform.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ts-patch": "^3.0.2",
+    "typescript": "^5.2.2",
+    "typia": "^5.2.2"
+  }
+}

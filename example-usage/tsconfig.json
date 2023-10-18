@@ -1,0 +1,19 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "dist",
+        "declaration": false,
+        "skipLibCheck": true,
+        "plugins": [
+            {
+                "transform": "typia-typetest/transform"
+            },
+            {
+                "transform": "typia/lib/transform"
+            }
+        ]
+    }
+}

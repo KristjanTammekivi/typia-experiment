@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "setup",
+			"problemMatcher": [],
+			"label": "npm: setup",
+			"detail": "yarn --cwd transform && yarn --cwd transform build && rm -rf example-usage/node_modules && yarn --cwd example-usage && yarn --cwd example-usage build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
